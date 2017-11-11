@@ -35,7 +35,7 @@ Beam Sword Lightsaber Emitter
 ┣━ Emitter Matrix  
 ┗━ High Energy Flux Aperture  
 
-Beam Sword Focusing Assembly
+Beam Sword Focusing Assembly  
 ┏━━━━━━━━━━━━━━━━┛  
 ┗━ Focusing Crystal Chamber
 
