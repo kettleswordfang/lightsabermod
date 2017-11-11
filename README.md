@@ -1,7 +1,10 @@
 # lightsabermod
 CDDA Lightsaber Construction
 
-rivtech_beam_sword  
+kyber crystals : basic + electric, flame, defensive?  
+electric would protect you from electricity, flame ignites on hit, defensive has mad parry ability
+
+`rivtech_beam_sword`  
 ┏━━━━━━━━━━━━━━━━┛  
 ┣━ Outer Casing  
 ┣━ Power Assembly  
