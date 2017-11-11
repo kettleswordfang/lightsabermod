@@ -1,6 +1,8 @@
 # lightsabermod
 CDDA Lightsaber Construction
 
+`rivtech_beam_sword`
+
 + Outer Casing
 + Power Assembly [Power Cell, Field Conductor, Vortex Ring, Power Insulator, Energy Gate, Recharge Socket]
 + Focusing Crystal Chamber and Assembly
