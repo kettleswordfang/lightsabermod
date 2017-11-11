@@ -7,6 +7,8 @@ CDDA Lightsaber Construction
 + Lightsaber Emitter [ Blade Energy Channel, Cycling Field Energisers, Energy Modulation Circuits, Focusing Lens, Emitter Matrix, High Energy Flux Aperture]
 + Controls
 
+plus the actual Kyber crystal
+
 then mods  
 [Dual-Phase Mechanism, Lock-On Activation Switch, Pressure Grip/Deadman’s Switch, Force-Manipulated Switch, Cell Recogniser, CommLink, Dataport]
 
