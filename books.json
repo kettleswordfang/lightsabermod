@@ -9,8 +9,8 @@
 	{
 		"id": "textbook_beamsword",
 		"type": "BOOK",
-		"name": "SwdProtoX9-Portal Shard Applications",
-		"name_plural": "Rivtech Portal Shard Applications",
+		"name": "Portal Shard Combat Applications",
+		"name_plural": "Portal Shard Combat Applications",
 		"description": "This large Rivtech manual has been marked for destruction, almost everything in it but the technical specification sections and blueprints blacked out and unreadable.",
 		"weight": 1409,
 		"volume": 6,
