@@ -1,0 +1,11 @@
+[
+	{
+		"type": "MOD_INFO",
+		"ident": "lightersabermod",
+		"name": "Rivtech Beam Swords",
+		"authors": [ "Kettle Swordfang" ],
+		"description": "Adds Rivtech Beam Swords.",
+		"category": "none",
+		"dependencies": [ "dda" ]
+	}
+]

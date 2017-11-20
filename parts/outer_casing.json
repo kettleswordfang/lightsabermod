@@ -1,0 +1,101 @@
+[
+	{
+		"type": "GENERIC",
+		"id": "rt_beam_outer_casing",
+		"symbol": ",",
+		"color": "gray",
+		"category": "spare_parts",
+		"description": "The outer casing for a Rivtech beam sword.",
+		"price": 30000,
+		"material": "superalloy",
+		"weight": 50,
+		"volume": 1,
+		"to_hit": 2
+	},
+	{
+		"type": "GENERIC",
+		"id": "rt_beam_controls",
+		"symbol": ",",
+		"color": "light_gray",
+		"category": "spare_parts",
+		"description": "The activation controls for a Rivtech beam sword.",
+		"price": 5000,
+		"material": "plastic",
+		"weight": 20,
+		"volume": 1,
+		"to_hit": -4
+	},
+	{
+		"type": "GENERIC",
+		"id": "rt_power_cell",
+		"symbol": ",",
+		"color": "green",
+		"category": "spare_parts",
+		"description": "A heavy power cell used to ignite a Rivtech beam sword.",
+		"price": 10000,
+		"material": "plastic",
+		"weight": 35,
+		"volume": 1,
+		"to_hit": 1
+	}
+	{
+		"type": "GENERIC",
+		"id": "rt_field_conductor",
+		"symbol": ",",
+		"color": "light_gray",
+		"description": "The portal field conductor used in a Rivtech beam sword.",
+		"price": 15000,
+		"material": "steel",
+		"weight": 20,
+		"volume": 1,
+		"to_hit": -4
+	},
+	{
+		"type": "GENERIC",
+		"id": "rt_vortex_ring",
+		"symbol": ",",
+		"color": "purple",
+		"description": "An extremely delicate yet complex set of interlocking cogs used to help power a Rivtech beam sword.",
+		"price": 15000,
+		"material": "steel",
+		"weight": 20,
+		"volume": 1,
+		"to_hit": -4
+	},
+	{
+		"type": "GENERIC",
+		"id": "rt_power_insulator",
+		"symbol": ",",
+		"color": "yellow",
+		"description": "A ceramic power shielding unit from a Rivtech beam sword.",
+		"price": 10000,
+		"material": "ceramic",
+		"weight": 15,
+		"volume": 0,
+		"to_hit": -2
+	},
+	{
+		"type": "GENERIC",
+		"id": "rt_energy_gate",
+		"symbol": ",",
+		"color": "light_gray",
+		"description": "A light absorbing case of shimmering, slow moving liquid used to guide power in Rivtech beam sword.",
+		"price": 50000,
+		"material": "steel",
+		"weight": 10,
+		"volume": 2,
+		"to_hit": -2
+	},
+	{
+		"type": "GENERIC",
+		"id": "rt_recharge_socket",
+		"symbol": ",",
+		"color": "yellow",
+		"description": Power connection ports to be installed in a Rivtech beam sword.",
+		"price": 10000,
+		"material": "steel",
+		"weight": 20,
+		"volume": 1,
+		"to_hit": -4
+	}
+}

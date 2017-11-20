@@ -1,0 +1,196 @@
+[
+{
+	"type": "recipe",
+	"result": "rt_beam_outer_casing",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "fabrication",
+	"skills_required": [ "electronics", 10 ],
+	"difficulty": 10,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities" : [
+		{ "id" : "SCREW", "level" : 1},
+		{ "id" : "GLARE", "level" : 2 },
+		{ "id" : "SAW_M_FINE", "level": 1 },
+		{ "id" : "WRENCH_FINE", "level": 1 },
+		{ "id" : "HAMMER", "level": 2 }
+	],
+	"tools" : [
+		[ [ "welder", 100 ], [ "oxy_torch", 20 ], [ "welder_crude", 150 ], [ "toolset", 150 ] ],
+		[[ "mold_plastic", -1 ]],
+		[[ "surface_heat", 30, "LIST" ]],
+		[[ "crucible", -1 ], [ "crucible_clay", -1 ]],
+		[[ "soldering_iron", 20 ], [ "toolset", 20 ]]
+		],
+	"components": [
+      [[ "alloy_sheet", 1 ]],
+      [[ "e_scrap", 5 ]],
+      [ [ "steel_lump", 2 ], [ "steel_chunk", 8 ], [ "scrap", 24 ],
+	  [[ "plastic_chunk", 4 ]],
+	  [ [ "copper", 100 ], [ "scrap_copper", 1 ] ],
+      [[ "rt_beam_controls", 1]]
+	  ]
+},
+{
+	"type": "recipe",
+	"result": "rt_beam_controls",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"difficulty": 9,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities" : [ {"id":"SCREW_FINE","level":1} ],
+	"tools": [
+		[ [ "soldering_iron", 15 ], [ "toolset", 15 ] ]
+    ],
+	"components": [
+		[[ "RAM", 4 ]],
+		[[ "processor", 1 ]],
+		[[ "plastic_chunk", 2 ]],
+		[[ "small_storage_battery", 1 ]],
+		[[ "small_lcd_screen", 1 ]],
+		[[ "cable", 2 ]],
+		[[ "superglue", 1 ]]
+	]
+},
+{
+	"type": "recipe",
+	"result": "rt_power_cell",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"difficulty": 9,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities": [ {"id": "SCREW_FINE", "level": 1} ],
+	"tools": [
+		[ [ "soldering_iron", 25 ], [ "toolset", 25 ] ]
+	],
+	"components": [
+		[[ "plut_cell", 1 ]],
+		[[ "power_supply", 4 ]],
+		[[ "amplifier", 2 ]],
+		[[ "scrap", 3 ]],
+		[[ "cable", 10 ]]
+	]
+},
+{
+	"type": "recipe",
+	"result": "rt_field_conductor",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"difficulty": 9,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities": [ {"id": "SCREW_FINE", "level": 1 } ],
+	"tools": [
+		[ [ "soldering_iron", 25 ], [ "toolset", 25 ] ]
+	],
+	"components": [
+		[[ "cable", 20 ]],
+		[[ "transponder", 4 ]],
+		[
+			[ "antenna", 2 ],
+			[ "e_scrap", 8 ],
+		]
+	]
+},
+{
+	"type": "recipe",
+	"result": "rt_vortex_ring",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"difficulty": 9,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities": [ 
+		{ "id": "SCREW_FINE", "level": 1 },
+		{ "id": "GLARE", "level": 2 }
+	],
+	"tools": [
+		[ [ "welder", 75 ], [ "oxy_torch", 15 ], [ "welder_crude", 112 ], [ "toolset", 112 ] ]
+	],
+	"components": [
+		[[ "silver", 200 ], [ "gold", 100 ]],
+		[[ "receiver", 1 ]],
+		[[ "RAM", 4 ]],
+		[[ "e_scrap", 2 ]]
+	]
+},
+	"type": "recipe",
+	"result": "rt_power_insulator",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"difficulty": 8,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities": [ 
+		{ "id": "SAW_M_FINE", "level": 1 },
+		{ "id": "SCREW", "level": 1 }
+	],
+	"components": [
+		[[ "ceramic_shard", 6 ], [ "ceramic_plate", 2 ]],
+		[[ "power_supply", 1]],
+		[[ "cable", 20 ]],
+		[[ "alloy_sheet", 1 ]]
+	]
+},
+{
+	"type": "recipe",
+	"result": "rt_energy_gate",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"skills_required": [ "cooking", 6 ],
+	"difficulty": 8,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities": [
+		{ "id": "SCREW_FINE", "level": 1 },
+		{ "id": "WRENCH_FINE", "level": 1 },
+		{ "id": "CHEM", "level": 2 }
+	],
+	"tools": [
+		[[ "tongs" -1 ]]
+	],
+	"components": [
+		[[ "amplifier", 4 ]],
+		[[ "alloy_sheet" ]],
+		[[ "silver", 100 ]],
+		[[ "oxy_powder", 500 ]],
+		[[ "chem_nitric_acid", 10 ]]
+	]
+},
+{
+	"type": "recipe",
+	"result": "rt_recharge_socket",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "electronics",
+	"skills_required": [ "fabrication", 6 ],
+	"difficulty": 8,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	"qualities": [
+		{ "id" : "SCREW_FINE", "level" : 1},
+		{ "id" : "GLARE", "level" : 2 },
+		{ "id" : "WRENCH_FINE", "level": 1 }
+	],
+	"tools" : [
+		[ [ "welder", 50 ], [ "oxy_torch", 10 ], [ "welder_crude", 75 ], [ "toolset", 75 ] ],
+		[[ "swage", -1 ]]
+	],
+	"components": [
+		[[ "processor", 2 ]],
+		[[ "amplifier", 2 ]],
+		[[ "battery_ups", 1 ]],
+		[[ "scrap", 2 ]],
+		[[ "pipe", 1  ]]
+	]
+}	
+]
