@@ -17,7 +17,7 @@
     "techniques": [ "WIDE", "BRUTAL", "WBLOCK_1" ],
     "qualities": [ [ "CUT", 10 ], [ "BUTCHER", -1 ] ],
     "flags": [ "UNBREAKABLE_MELEE", "SLICE", "TRADER_AVOID", "NO_SALVAGE" ],
-	"valid_mod_locations": [ "accessories", 1 ],
+	"valid_mod_locations": [ "accessories", 1 ]
   },
   {
     "id": "rivtech_beam_sword_fire",

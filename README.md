@@ -6,41 +6,51 @@ electric would protect you from electricity, flame ignites on hit, defensive has
 
 `rivtech_beam_sword`  
 ┏━━━━━━━━━━━━━━━━┛  
-┣━ Outer Casing  
-┣━ Power Assembly  
-┣━ Focusing Assembly  
-┣━ Lightsaber Emitter  
-┗━ Kyber Crystal
+┣━ Outer Casing^  rt_beam_outer_casing  
+┣━ Power Assembly^  rt_beam_power_assembly !!!!
+┣━ Focusing Assembly  rt_focusing_assembly !!!!
+┣━ Lightsaber Emitter  rt_blade_emitter^
+┗━  
 
-Beam Sword Outer Casing  
+Beam Sword Outer Casing^  
 ┏━━━━━━━━━━━━━━━━┛  
-┗━ Beamsaber Controls
+┗━ Beamsaber Controls^  
 
-Beam Sword Power Assembly  
+Beam Sword Power Assembly^  
 ┏━━━━━━━━━━━━━━━━┛  
-┣━ Power Cell  
-┣━ Field Conductor  
-┣━ Vortex Ring  
-┣━ Power Insulator  
-┣━ Energy Gate  
-┗━ Recharge Socket  
+┣━ Power Cell^  
+┣━ Field Conductor^  
+┣━ Vortex Ring^  
+┣━ Power Insulator^  
+┣━ Energy Gate^  
+┗━ Recharge Socket^  
 
-Beam Sword Focusing Assembly  
+Beam Sword Focusing Assembly^  rt_focusing_assembly  
 ┏━━━━━━━━━━━━━━━━┛  
-┗━ Focusing Crystal Chamber
+┗━ Focusing Crystal Chamber^  "rt_focusing_chamber"  
+┗━ Kyber Crystal^  "rt_crystal_shard"
 
-Beam Sword Lightsaber Emitter  
+Beam Sword Lightsaber Emitter^  
 ┏━━━━━━━━━━━━━━━━┛  
-┣━ Blade Energy Channel  
-┣━ Cycling Field Energisers  
-┣━ Energy Modulation Circuits  
-┣━ Focusing Lens  (diamond)
-┣━ Emitter Matrix  
-┗━ High Energy Flux Aperture  
+┣━ Blade Energy Channel^  
+┣━ Cycling Field Energisers^  
+┣━ Energy Modulation Circuits^  
+┣━ Focusing Lens  (diamond)^  
+┣━ Emitter Matrix^  
+┗━ High Energy Flux Aperture^  
 
-Beam Sword Focusing Assembly  
-┏━━━━━━━━━━━━━━━━┛  
-┗━ Focusing Crystal Chamber
+assembly:
+"type": "recipe",
+	"result": "rt_focusing_assembly",
+	"category": "CC_ELECTRONIC",
+	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
+	"skill_used": "fabrication",
+	"skills_required": [ "electronics", 10 ],
+	"difficulty": 10,
+	"time": 10000,
+	"book_learn": [[ "textbook_beamsword", 4 ]],
+	
+
 
 Beam Sword, Possible Mods - not possible with guns, will have to edit the src for this  
 ┏━━━━━━━━━━━━━━━━┛  
@@ -93,3 +103,37 @@ components: amplifier circuit x4, hydrogen canister x1, silver x100, superalloy 
 part: **rt_recharge_socket  
 makes: rt_power_assembly    
 components: processor board x2, amplifier circuit x2, UPS x1, scrap metal x2, pipe x1
+
+---
+####rt_blade_emitter
+
+		[[ "rt_blade_channel", 1 ]],
+			acid coated in something to handle the blade, metals
+			welding, chemistry, tongs, metal sawing
+			metal chunk 4, chem_acetic_acid 20, oxy_powder 20, chem_thermite 5
+			
+		[[ "rt_cycling_field", 1 ]],
+			fine screw, soldering
+			e_scraps 1, solder_wire 1, amplifier, solar cell
+			
+		[[ "rt_modulation_circuit", 1 ]],
+			electronics to focus the blade
+			fine screwing, soldering iron
+			e_scraps 5, solder_wire 10, cable 4, amplifier 1, processor 1, silver 4
+			
+		[[ "rt_focusing_lens", 1 ]],
+			lens to focus the blade
+			fine screwing, SAW_M_FINE
+			diamond, e_scraps 1, scrap copper 1, ceramic shard
+			
+		[[ "rt_emitter_matrix", 1 ]],
+			silver, gold and plutonium slurry in a mold and extracted
+			chemistry, glare 1, tongs, plastic mold
+			e_scraps, silver, gold, slurry, plastic chunk
+			
+		[[ "rt_flux_aperture", 1 ]]		
+			 small electric motor recipe?
+			 hammering, screwing, soldering iron 5
+			 scrap metal, scrap copper, cable, power_supply
+			
+			
