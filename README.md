@@ -1,66 +1,66 @@
-# lightsabermod
-CDDA Lightsaber Construction
+# CDDA Beam Sword Construction
+Adds the beam sword, a powerful and difficult to make endgame weapon made from a crystalized portal shard.
 
-kyber crystals : basic + electric, flame, defensive?  
-electric would protect you from electricity, flame ignites on hit, defensive has mad parry ability
+Be warned -  the beam sword is quite an exhausting undertaking to create.
 
-`rivtech_beam_sword`  
+## Constructing the weapon
+
+Rivtech Beam Sword, which is made from:  
 ┏━━━━━━━━━━━━━━━━┛  
-┣━ Outer Casing^  rt_beam_outer_casing  
-┣━ Power Assembly^  rt_beam_power_assembly !!!!
-┣━ Focusing Assembly  rt_focusing_assembly !!!!
-┣━ Lightsaber Emitter  rt_blade_emitter^
-┗━  
+┣━ the outer casing  
+┣━ a power assembly  
+┣━ a focusing assembly  
+┣━ a blade emitter
 
-Beam Sword Outer Casing^  
+Beam Sword Outer Casing, made from:  
 ┏━━━━━━━━━━━━━━━━┛  
-┗━ Beamsaber Controls^  
+┗━ activation controls
 
-Beam Sword Power Assembly^  
+Beam Sword Power Assembly, made from:  
 ┏━━━━━━━━━━━━━━━━┛  
-┣━ Power Cell^  
-┣━ Field Conductor^  
-┣━ Vortex Ring^  
-┣━ Power Insulator^  
-┣━ Energy Gate^  
-┗━ Recharge Socket^  
+┣━ a heavy power cell  
+┣━ a portal field conductor  
+┣━ an extremely delicate yet complex vortex ring  
+┣━ a ceramic power shielding unit  
+┣━ a light absorbing case of shimmering, slow moving liquid  
+┗━ power connection ports for charging
 
-Beam Sword Focusing Assembly^  rt_focusing_assembly  
+Beam Sword Focusing Assembly, made from:  
 ┏━━━━━━━━━━━━━━━━┛  
-┗━ Focusing Crystal Chamber^  "rt_focusing_chamber"  
-┗━ Kyber Crystal^  "rt_crystal_shard"
+┗━ a focusing chamber for the blade  
+┗━ a shard of crystal from a portal
 
-Beam Sword Lightsaber Emitter^  
+Beam Sword Blade Emitter, made from:  
 ┏━━━━━━━━━━━━━━━━┛  
-┣━ Blade Energy Channel^  
-┣━ Cycling Field Energisers^  
-┣━ Energy Modulation Circuits^  
-┣━ Focusing Lens  (diamond)^  
-┣━ Emitter Matrix^  
-┗━ High Energy Flux Aperture^  
+┣━ an energy channel the portal beam  
+┣━ the field energizer that keeps the blade ignited  
+┣━ an energy modulation circuit  
+┣━ a diamond focusing lens  
+┣━ the highly dangerous emitter matrix  
+┗━ a series of ever-looping circuity
 
-assembly:
-"type": "recipe",
-	"result": "rt_focusing_assembly",
-	"category": "CC_ELECTRONIC",
-	"subcategory": "CSC_ELECTRONIC_COMPONENTS",
-	"skill_used": "fabrication",
-	"skills_required": [ "electronics", 10 ],
-	"difficulty": 10,
-	"time": 10000,
-	"book_learn": [[ "textbook_beamsword", 4 ]],
-	
+*Detailed construction information and a full component list can be found on the Wiki tab above.*
 
+## Finding the recipe
 
-Beam Sword, Possible Mods - not possible with guns, will have to edit the src for this  
+A new book, Portal Shard Combat Applications, has a low chance to be found in bank vaults.
+
+## Finding the beam crystal
+
+The crystal shard can be found in labs and is usually located near portals.
+
+## TO DO
++ ~~balance out the all construction recipes~~
++ ~~make the crystal shard discoverable without the trailer park mod~~
++ set up the beam sword to have an ON / OFF state
++ beam sword sheath? maybe, but only when switched off
++ more crystal types? electric would protect you from electricity, flame ignites on hit, defensive has mad parry ability
++ melee mods? sounds like a lot of work
+
+Possible melee mods, if I ever get that working..  
 ┏━━━━━━━━━━━━━━━━┛  
 ┣━ Dual-Phase Mechanism  
 ┣━ Lock-On Activation Switch  
-┣━ Pressure Grip/Deadman’s Switch  
+┣━ Pressure Grip/Deadman's Switch  
 ┣━ Force-Manipulated Switch  
 ┣━ Cell Recogniser  
-┣━ CommLink  
-┗━ Dataport
-
-*would be a **massive undertaking** to create one*
-
