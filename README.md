@@ -51,6 +51,7 @@ The crystal shard can be found in labs and is usually located near portals.
 
 ## TO DO
 + add tiles to chesthole's set
++ sort recipes so beam sword is first
 + ~~balance out the all construction recipes~~
 + ~~make the crystal shard discoverable without the trailer park mod~~
 + set up the beam sword to have an ON / OFF state
