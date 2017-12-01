@@ -3,6 +3,8 @@ Adds the beam sword, a powerful and difficult to make endgame weapon made from a
 
 Be warned -  the beam sword is quite an exhausting undertaking to create.
 
+*Detailed construction information and a full component list can be found on the Wiki tab above.*
+
 ## Constructing the weapon
 
 Rivtech Beam Sword, which is made from:  
@@ -38,8 +40,6 @@ Beam Sword Blade Emitter, made from:
 ┣━ a diamond focusing lens  
 ┣━ the highly dangerous emitter matrix  
 ┗━ a series of ever-looping circuity
-
-*Detailed construction information and a full component list can be found on the Wiki tab above.*
 
 ## Finding the recipe
 
