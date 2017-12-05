@@ -9,6 +9,7 @@
 	"difficulty": 10,
 	"time": 100000,
 	"book_learn": [[ "textbook_beamsword", 8 ]],
+    "autolearn": false,
 	"qualities" : [
 		{ "id" : "SCREW", "level" : 1},
 		{ "id" : "GLARE", "level" : 2 },
@@ -41,6 +42,7 @@
 	"difficulty": 10,
 	"time": 10000,
 	"book_learn": [[ "textbook_beamsword", 4 ]],
+    "autolearn": false,
 	"qualities" : [
 		{ "id" : "SCREW", "level" : 1},
 		{ "id" : "GLARE", "level" : 2 },
@@ -74,6 +76,7 @@
 	"difficulty": 9,
 	"time": 10000,
 	"book_learn": [[ "textbook_beamsword", 5 ]],
+    "autolearn": false,
 	"qualities" : [
 		{ "id" : "GLARE", "level" : 2 },
 		{ "id" : "SAW_M_FINE", "level": 1 },
@@ -103,6 +106,7 @@
 	"difficulty": 10,
 	"time": 10000,
 	"book_learn": [[ "textbook_beamsword", 4 ]],
+    "autolearn": false,
 	"qualities" : [
 		{ "id" : "SCREW_FINE", "level" : 1},
 		{ "id" : "GLARE", "level" : 2 },
@@ -130,6 +134,7 @@
 	"difficulty": 10,
 	"time": 10000,
 	"book_learn": [[ "textbook_beamsword", 4 ]],
+    "autolearn": false,
 	"qualities": [
 		[ { "id": "SCREW", "level": 1 } ],
 		[ { "id": "SCREW_FINE", "level": 1 } ]

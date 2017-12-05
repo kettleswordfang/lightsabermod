@@ -8,6 +8,7 @@
 	"difficulty": 9,
 	"time": 10000,
 	"book_learn": [[ "textbook_beamsword", 5 ]],
+    "autolearn": false,
 	"qualities" : [ {"id":"SCREW_FINE","level":1} ],
 	"tools": [
 		[ [ "soldering_iron", 15 ], [ "toolset", 15 ] ]
